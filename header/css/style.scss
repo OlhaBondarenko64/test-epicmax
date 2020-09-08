@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Default main styles */
+form{
+    &__form-control{}
+}
+.btn{
+    &--btn-default{}
+}
+
+/* Header*/
+.site-logo{
+    &__img{}
+}
+.header-search{
+    &__select{}
+    &__input{}
+    &__submit{}
+}
+.main-nav{
+    &__list{}
+    &__item{}
+    &__link{
+        &--account{}
+        &--lists{}
+        &--cart{}
+    }
+}
+.shop-nav{
+    &__list{}
+    &__item{
+        &--item-brands{}
+    }
+    &__link{
+        &--default{}
+        &--more{}
+    }
+}
+.info{
+    &__right{}
+    &--tel{}
+    &--open{}
+    &--close{}
+    &--link{}
+}

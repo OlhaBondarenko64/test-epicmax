@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebSite">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title itemprop="name">State Suply</title>
+    <link rel="preconnect" crossorigin href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="preload" as="style" href="css/style.css">
+    <link rel="preload" as="style" href="css/mobile.css" media="screen and (max-width: 480px)">
+    
+    <meta property="og:title" content="State Suply">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.statesupply.com/">
+    <meta property="og:image" content="https://www.statesupply.com/img/logo.png">
+    <meta property="og:description" content="State Supply stocks over 25,000 items - many are hard-to-find or obsolete.">
+  
+</head>
+<body>
+    <header>
+        <h1 itemscope itemtype="http://schema.org/Organization">
+            <a href="/" itemprop="url" class="site-logo" tabindex="0">
+                <img src="img/logo.png" class="site-logo__img" alt="State Suply logo" >
+            </a>
+        </h1>
+        <div class="info">
+            <a 
+                href="tel:+18777757705" 
+                title="telephon number 8777757705"
+                class="info--tel"
+                tabindex="1"
+            >(877)775-77055
+            </a> ~ 
+            <span class="info--open">We're Open</span>
+            <span class="info--close" hidden>We're Closed</span>
+            Today we close in 3 hours at <time title="close at 5 p.m" datetime="17:00">5 p.m.</time> central time. 
+            <a 
+                href="#" 
+                title="Hours of operation" 
+                class="info--hours"
+                tabindex="2"
+            >Hours of operation
+            </a>
+            <span class="info__right">
+                EST 1933.
+                <a href="/" class="info--link" tabindex="3">Our story</a>
+            </span>
+        </div>
+        <form role="search" class="header-search form">
+            <select 
+                name="selectDepartment" 
+                id="selectDepartment" 
+                class="header-search__select form__control"
+                tabindex="4">
+                
+                <option value="all">All Departmens</option>
+            </select>
+            <input 
+                type="text" 
+                aria-label="search text"
+                placeholder="SKU, part number, brand or keyword" 
+                class="header-search__input form__control" 
+                tabindex="5">
+            <button 
+                type="submit" 
+                class="header-search__submit btn btn--default" 
+                title="Search"
+                tabindex="6"
+            >Search
+            </button>
+        </form>
+        <nav class="main-nav">
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a 
+                        href="" 
+                        class="main-nav__link main-nav__link--account" 
+                        tabindex="7"
+                        title="Account">Account</a></li>
+                <li class="main-nav__item"><a href="" class="main-nav__link main-nav__link--list" tabindex="8">List</a></li>
+                <li class="main-nav__item"><a href="" class="main-nav__link main-nav__link--cart" tabindex="9">Cart</a></li>
+            </ul>
+        </nav>
+        <nav class="shop-nav">
+            <ul class="shop-nav__list">
+                <li class="shop-nav__item"><a href="" class="shop-nav__link shop-nav__link--default" tabindex="10">Pumps</a></li>
+                <li class="shop-nav__item"><a href="" class="shop-nav__link shop-nav__link--default" tabindex="11">Steam traps</a></li>
+                <li class="shop-nav__item"><a href="" class="shop-nav__link shop-nav__link--default" tabindex="12">Valves</a></li>
+                <li class="shop-nav__item"><a href="" class="shop-nav__link shop-nav__link--default" tabindex="13">Controls</a></li>
+                <li class="shop-nav__item"><a href="" class="shop-nav__link shop-nav__link--default" tabindex="14">Sensors</a></li>
+                <li class="shop-nav__item"><a href="" class="shop-nav__link shop-nav__link--more" tabindex="15">More</a></li>
+                <li class="shop-nav__item shop-nav__item--brands "><a href="" class="shop-nav__link  shop-nav__link--default" tabindex="16">Show brands</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+</body>
+</html>
